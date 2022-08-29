@@ -10,6 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
+        String password="password";
         return "Hello from EC2";
     }
 }
